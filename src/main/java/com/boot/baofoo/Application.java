@@ -16,8 +16,8 @@ public class Application {
 		SpringApplication.run(Application.class, args);
 	}
 
-	@RequestMapping("/")
-	public String user(){
-		return "Hello word, spring boot!";
-	}
+//	@RequestMapping("/")
+//	public String user(){
+//		return "Hello word, spring boot!";
+//	}
 }
